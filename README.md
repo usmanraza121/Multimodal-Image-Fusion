@@ -2,7 +2,7 @@
 
 This repository provides tools and algorithms for **image registration** and **multimodal image fusion**, using RGB and thermal facial images. It is designed for medical applications such as **remote photoplethysmography (rPPG)** and **facial skin anomaly detection**.
 
-![Multimodal Image Fusion](images/fuse1.png)
+![Multimodal Image Fusion](images/reg1.png)
 
 ## Overview
 This project implements image registration techniques to enable multimodal image fusion of **facial RGB and thermal image** data. It supports medical analysis by combining RGB and thermal imaging modalities and aligning them temporally. This repository implements three methods to register **facial RGB and thermal images** and align them temporally using timestamp differences:
@@ -54,7 +54,7 @@ To set up the project locally, follow these steps:
 
 
 ## Image Registration
-![Image Registration Example](images/reg1.png)
+![Image Registration Example](images/fuse1.png)
 
 ## Temporal Matching
 ![Time-stamp mismatching example](images/diff.png)
