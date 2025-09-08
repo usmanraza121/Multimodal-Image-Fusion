@@ -54,11 +54,37 @@ To set up the project locally, follow these steps:
 
 
 ## Image Registration
+This image demonstrates the **registration process**, where RGB and thermal images are aligned spatially to ensure that corresponding features (such as facial landmarks) from both modalities match accurately for further analysis.
+
 ![Image Registration Example](images/fuse1.png)
 
 ## Temporal Matching
+**Time-stamp mismatching example:**
+This image shows the **original time indices** where the RGB and thermal images are temporally misaligned. In the RGB image (from the same time index as the thermal image), the subject’s eyes are open, while in the thermal image, the subject’s eyes are closed. This mismatch indicates a temporal misalignment between the two modalities.
 ![Time-stamp mismatching example](images/diff.png)
+
+**Time-stamp matching examples:**
+The following images demonstrate how **temporal alignment** is applied to synchronize the RGB and thermal images. This alignment ensures that corresponding features in both modalities, such as the subject’s eyes, are properly aligned across time indices.
+
+- **Example 1:**
+  - **RGB Image Index: 37** (subject's eyes closed)
+  - **Thermal Image Index: 51** (subject's eyes closed after alignment)
+
+  After temporal alignment, both images show the subject with **eyes closed**, indicating that the correct temporal index has been matched.
 
 ![Time-stamp matching example](images/temp1.png)
 
+*After temporal alignment: Both RGB and thermal images show the subject’s eyes closed.*
+
+
+
+- **Example 2:**
+  - **RGB Image Index: 28** (subject's eyes open)
+  - **Thermal Image Index: 42** (subject's eyes open after alignment)
+  
+  After temporal alignment, the RGB and thermal images are synchronized, and both show the subject with **eyes open**.
+
 ![Time-stamp matching example](images/temp2.png)
+
+*Both RGB and thermal images show the subject's eyes open.*
+
