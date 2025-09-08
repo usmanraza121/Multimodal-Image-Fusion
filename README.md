@@ -58,5 +58,7 @@ To set up the project locally, follow these steps:
 
 ## Temporal Matching
 ![Time-stamp mismatching example](images/diff.png)
+
 ![Time-stamp matching example](images/temp1.png)
+
 ![Time-stamp matching example](images/temp2.png)
