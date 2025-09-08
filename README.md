@@ -4,6 +4,16 @@ This repository provides tools and algorithms for **image registration** and **m
 
 ![Multimodal Image Fusion](images/reg1.png)
 
+## Table of Contents
+- [Overview](#overview)
+- [Highlights](#highlights)
+- [Repository Structure](#repository-structure)
+- [Installation](#installation)
+- [Image Registration](#image-registration)
+- [Temporal Mismatch and Alignment of RGB and Thermal Images](#temporal-mismatch-and-alignment-of-RGB-and-Thermal-Images)
+
+
+
 ## Overview
 This project implements image registration techniques to enable multimodal image fusion of **facial RGB and thermal image** data. It supports medical analysis by combining RGB and thermal imaging modalities and aligning them temporally. This repository implements three methods to register **facial RGB and thermal images** and align them temporally using timestamp differences:
 1. **Enhanced Correlation Coefficient (ECC)**:
@@ -58,7 +68,8 @@ This image demonstrates the **registration process**, where RGB and thermal imag
 
 ![Image Registration Example](images/fuse1.png)
 
-## Temporal Matching
+
+## Temporal Mismatch and Alignment of RGB and Thermal Images
 **Time-stamp mismatching example:**
 This image shows the **original time indices** where the RGB and thermal images are temporally misaligned. In the RGB image (from the same time index as the thermal image), the subject’s eyes are open, while in the thermal image, the subject’s eyes are closed. This mismatch indicates a temporal misalignment between the two modalities.
 ![Time-stamp mismatching example](images/diff.png)
