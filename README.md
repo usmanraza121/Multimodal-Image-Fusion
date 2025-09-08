@@ -25,7 +25,7 @@ This project implements image registration techniques to enable multimodal image
 ```
 ├── RGB_thermal_Fusion.ipynb          # RGB-thermal image fusion using ECC (OpenCV) and SimpleITK
 ├── time_stamp_matching.ipynb         # Temporal alignment of RGB and thermal images using timestamps
-├── requirements.txt  
+├── images 
 └── README.md   
 ```
 
